@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.center{
+  position: relative;
+  top:50%;
+}
+
+.card {
+  display: flex;
+  margin-top: 30%;
+  width: 700px;
+  height: auto;
+  flex-direction: column;
+  background-color: #536162;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 4px 4px 1px rgb(0, 0, 0, 0.5);
+}
+button{
+  padding: 10px;
+  background-color: #f3f4ed;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 30px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 4px 4px 1px rgb(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #87a7b3;
+}
+
+a:hover{
+  background-color: #87a7b3;
+}
+
+a{
+  width: 81px;
+  height: 60px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 4px 4px 1px rgb(0, 0, 0, 0.5);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color:  #f3f4ed;
+  text-decoration: none;
+  color:black;
+}
+
+
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  
+}
+
+html{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.author-container {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  color: #f3f4ed;
+}
+
+.container-quote {
+  padding-top: 20px;
+  width: 600px;
+  height: 100px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5rem;
+  color: #f3f4ed;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
